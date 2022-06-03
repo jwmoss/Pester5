@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-results xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nunit_schema_2.5.xsd" name="Pester" total="4" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2022-06-03" time="12:37:53">
+  <environment user-domain="DESKTOP-5U8RO0K" platform="Microsoft Windows 10 Pro|C:\Windows|\Device\Harddisk0\Partition3" nunit-version="2.5.8.0" cwd="C:\Github\Pester5" machine-name="DESKTOP-5U8RO0K" os-version="10.0.19044" user="jwmoss" clr-version="Unknown" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="TestFixture" name="Pester" executed="True" result="Success" success="True" time="0.6293" asserts="0" description="Pester">
+    <results>
+      <test-suite type="TestFixture" name="C:\Github\Pester5\integration.tests.ps1" executed="True" result="Success" success="True" time="0.6293" asserts="0" description="C:\Github\Pester5\integration.tests.ps1">
+        <results>
+          <test-suite type="TestFixture" name="Website" executed="True" result="Success" success="True" time="0.548" asserts="0" description="Website">
+            <results>
+              <test-suite type="TestFixture" name="Website.Raleigh" executed="True" result="Success" success="True" time="0.2537" asserts="0" description="Website.Raleigh">
+                <results>
+                  <test-case description="Raleigh's Website is online" name="Website.Raleigh.Raleigh's Website is online" time="0.2445" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="Website.Phoenix" executed="True" result="Success" success="True" time="0.5388" asserts="0" description="Website.Phoenix">
+                <results>
+                  <test-case description="Phoenix's Website is online" name="Website.Phoenix.Phoenix's Website is online" time="0.2805" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="AirportCode" executed="True" result="Success" success="True" time="0.5735" asserts="0" description="AirportCode">
+            <results>
+              <test-suite type="TestFixture" name="AirportCode.Raleigh" executed="True" result="Success" success="True" time="0.006" asserts="0" description="AirportCode.Raleigh">
+                <results>
+                  <test-case description="Raleigh's Code is only 3 characters" name="AirportCode.Raleigh.Raleigh's Code is only 3 characters" time="0.0027" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="AirportCode.Phoenix" executed="True" result="Success" success="True" time="0.0201" asserts="0" description="AirportCode.Phoenix">
+                <results>
+                  <test-case description="Phoenix's Code is only 3 characters" name="AirportCode.Phoenix.Phoenix's Code is only 3 characters" time="0.0049" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
