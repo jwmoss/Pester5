@@ -5,7 +5,7 @@ param (
 
     ## Path to custom module that holds wrapper functions around invoke-restmethod
     [String]
-    $PathToScript = "C:\Github\Pester5\Get-Airport.ps1"
+    $PathToScript = "/Users/jwmoss/Github/Pester5/Get-Airport.ps1"
 )
 
 BeforeDiscovery {

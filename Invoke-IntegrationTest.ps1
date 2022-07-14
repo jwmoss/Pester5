@@ -21,14 +21,20 @@ function Invoke-IntegrationTest {
         [String]
         $TestSuite,
 
+        [String]
+        $File = "/Users/jwmoss/Github/Pester5/airport.json",
+
+        [String]
+        $Tests = "/Users/jwmoss/Github/Pester5/integration.tests.ps1",
+
         [Switch]
         $CI
     )
     
     ## Store the container in a variable
     ## Pass in a json file that contains data, such as paths to HTTP endpoints for whatever work environment is selected
-    $Container = New-PesterContainer -Path "C:\Github\Pester5\integration.tests.ps1" -Data @{ 
-        File = "C:\Github\Pester5\airport.json" 
+    $Container = New-PesterContainer -Path $Tests -Data @{ 
+        File = $File
     }
     
     ## Build a pester configuration
